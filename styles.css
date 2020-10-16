@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body  {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+  }
+.wrap {
+    /*border: 1px solid yellow;*/
+    display: flex;
+    flex-wrap: no-wrap;
+    text-align: center;
+    align-items: center;
+}
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;    
+}
+#img-caption {
+    margin-top: 1em;
+}
+.container {
+    width: 100%;
+    padding-bottom: 2em;
+}
+.container-two {
+    text-align: justify;
+    flex-shrink: 2;
+    padding-bottom: 1em;
+}
+.date {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: -1em;
+}
+h1 {
+    margin-top: -0.3em;
+    font-size: 3em;
+    transition: 0.4s;
+}
+h1:hover{
+    color: red;
+    
+}
+#logo {
+    max-width: 5em;
+}
+.welcome {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+.nav-link {
+    text-decoration: none;
+    color: red;
+    }
+.nav-link-dos {
+    text-decoration: none;
+    color: red;
+    padding-left: 1em;
+}
+#tribute-info {
+    text-align: center;
+}
+.bio {
+    line-height: 1.7em;
+    padding: 0 1em 0 1em;
+}
+@media screen and (max-width: 960px) {
+    .wrap {
+      display: flex;
+      flex-direction: column;
+    }
+    .container-two {
+        width: 100%;
+    }
+}
